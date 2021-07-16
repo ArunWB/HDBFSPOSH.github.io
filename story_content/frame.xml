@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111001101" textdirection="ltr" device="false" fontscale="110" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111001101" font="Calibri" controllayout="npnxnanbsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001101" font="Calibri" controllayout="pxabnsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="npxnabnsnfns10111001101" font="Calibri" controllayout="npxnabnsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="npnxnanbnsnfns10111001101" font="Calibri" controllayout="npnxnanbnsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001100" font="Calibri" controllayout="pxabnsnfns10111001100" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="pnxanbnsnfns10111001101" font="Calibri" controllayout="pnxanbnsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Prevention of Sexual Harassment at Workplace" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="right" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="linkright" />
+              <listitem name="transcript" value="true" group="linkright" />
+              <listitem name="glossary" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="restricted" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="true" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Calibri" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns10111001101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCF000C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns10111001101">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Calibri">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Symbol">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5eJfqbIpmlC" displaytext="Prevention of Sexual Harassment at Workplace" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5eJfqbIpmlC.5YHVyqbWGed" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6C035nCzhId" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5iQ6uXtaRJf" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6MTFSBaxhh6" displaytext="Key Definitions" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6HffpMdLFhZ" displaytext="People covered under the Act" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6g2KYLE4uf8" displaytext="Sexual Harassment Act: Scope" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6OUpNItmCPi" displaytext="What is not Sexual Harassment" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6EA5auo2PVm" displaytext="Key Definitions of the Act" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5qHqHBDjsBK" displaytext="Examples of Sexual Harassment" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5fszfd3IAfv" displaytext="Key Takeaways " expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6C1mn3wrs5e" displaytext="Types of Sexual Harassment" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5kHpr5Nn66b" displaytext="Sexual Harassment Act: Scope" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6ekRal4UKe1" displaytext="What is Sexual Harassment?" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5mNcMjSIMAT" displaytext="POSH Policy " expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5YJblpawLEL" displaytext="Composition of Internal Complaints Committee" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.6UiggVbnIrq" displaytext="Complaint Redressal Process " expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5xQSR7Koe1h" displaytext="Check Your Understanding" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5XDeuhoV05b" displaytext="Prevent Sexual Harassment as an Individual" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5youWp19wXr" displaytext="Prevent Sexual Harassment as a Manager" expand="false" type="slide" />
+            <slidelink slideid="_player.5eJfqbIpmlC.5s116EGjlZT" displaytext="Conclusion" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5eJfqbIpmlC.5YHVyqbWGed" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Hello, and welcome to the module on Prevention of Sexual Harassment at the Workplace. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6C035nCzhId" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;My name is Neha, and I will be your guide for this course. Before we proceed, let’s look at a few scenes. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;What do they tell you? &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Yes, they all depict instances of sexual harassment that may take place at work.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Sexual harassment takes place when someone faces unwelcomed acts or behaviours such as physical contact and advances, a demand or request for sexual favours, sexually-coloured remarks, or showing pornography. Any other misconduct or gesture that is sexual in nature can be construed as sexual harassment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;In this course, let us look at ways in which you can address sexual harassment at workplace.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5iQ6uXtaRJf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;By the end of this module, you will be able to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#404040'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Define sexual harassment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#404040'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Identify different types of sexual harassment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#404040'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Identify what is not sexual harassment, and &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#404040'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Explain the complaint process in case of sexual harassment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6MTFSBaxhh6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Sexual harassment is not only about the most obvious or explicit misbehaviours like inappropriate touching or making suggestive comments. It is also about indirect or implied acts of misconduct connected to sexual harassment, to seek sexual favours. For example – the promise of preferential treatment in employment, the threat of unfavourable treatment, a threat to present or future employment status, interference with work or creating an intimidating, offensive, or hostile work environment, and humiliating treatment likely to affect health or safety.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6HffpMdLFhZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;So, who all are governed under the Prevention of Sexual Harassment Act?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;All employees of HDB Financial Services Ltd. are governed under the Prevention of Sexual Harassment Act.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;All employees include Full Time Employees, Temporary Employees, Probationers, and Trainees.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6g2KYLE4uf8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Sexual harassment is defined by its impact on the victim and the work environment, and not the intention of the harasser. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Thus, if the recipient feels offended, humiliated, or intimidated by the conduct of the harasser, then it would be considered as sexual harassment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6OUpNItmCPi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Now that you are clear on what is sexual harassment, it is equally important for you to understand what is not sexual harassment. As long as the behaviour is mutual and friendly, it is not sexual harassment. For example, if a manager insists his team member to perform well and provides constructive feedback, or if a colleague offers a polite compliment, such actions do not fall under sexual harassment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6EA5auo2PVm" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Let’s look at some key definitions under the Sexual Harassment act.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Click each term to know more.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;An aggrieved individual means a woman of any age, whether employed or not, who claims to have been facing sexual harassment at workplace.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;A respondent is, usually the harasser, against whom the aggrieved individual has made a complaint.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Workplace includes all offices and branches of the Company.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;It also includes any professional places visited by the employee with an employer or a colleague in the course of employment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5qHqHBDjsBK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Let us look at a few examples to understand the definitions better. Click each image to follow a scenario.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6RvytfZcEt6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Read the scenario carefully.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.654C4Csfaog" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Read the second scenario carefully.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6ozGpi3H4dy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Identify the aggrieved person, respondent and workplace in this example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Drag and drop each option to its appropriate placeholder and click Submit.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5n5sHT6WdIG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Can this act of Suraj be construed as sexual harassment?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Make your choice and click Submit.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Yes, that’s correct. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Dropping women employees when it is late considering their safety is not to be considered as the act of sexual harassment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;No, that’s incorrect. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Dropping women employees when it is late considering their safety is not to be considered as the act of sexual harassment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6kkmwh1Ft9k" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;What should Kiran do in such a case?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Make your choice and click Submit.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Yes, that’s correct. Kiran should immediately inform the HR about Sajjan’s behaviour.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Oops, that’s incorrect. Kiran should immediately inform the HR about Sajjan’s behaviour.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5fszfd3IAfv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Here are few key takeaways from both the scenarios.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Remember that a conduct is NOT sexual harassment if it is welcomed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Hence, it becomes all the more important to communicate a clear NO when faced with harassment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Face the harasser and communicate firmly that the behaviour is not acceptable to you.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;After saying a NO, if the behaviour still continues, take it up with the HR. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Put a complaint in writing, make immediate notes on the harassment and be specific in your details — note the time and place of each incident, what was said and done, and who witnessed the actions.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6C1mn3wrs5e" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Now that you have a clear understanding of what is sexual harassment let us quickly look at the types of sexual harassment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Sexual harassment can be divided into four types,&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;•      Verbal&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;•      Non-verbal&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;•      Physical and&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;•      Visual&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Click each type to know about it.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Verbal harassment at work ranges from racist jokes to threats. It includes threatening, shouting, or insulting a colleague or an employee, graphic commentary about a person’s physical attributes, use of profane or demeaning language, and using vulgar words.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Non-verbal sexual harassment can be acts of staring at someone, blowing kisses, winking, whistling or using printed materials that display sexually-oriented pictures or cartoons.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;It can also mean updating sexually-oriented screen savers in office computers, or sending sexually-oriented notes, letters, faxes, emails or messages. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Physical harassment is any unwanted contact of a sexual nature. These include sexually suggestive or offensive touching or deliberate brushing against another’s body. It also includes conduct against a person of a different gender in way that is assaulting, or blocking normal movement, or intentionally interfering with work.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Visual misconduct includes staring or the display of sexually suggestive or explicit posters. It can be photography, graffiti, drawings, gestures, inappropriate text messages or any objects that are sexually suggestive, like obscene notes, letters, email or internet information.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5kHpr5Nn66b" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Having understood the four types of harassment, let us get to know why it is important to report an incident of sexual harassment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6ekRal4UKe1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;It is necessary to stop unfair and unethical treatment. If left unreported, it could get worse. HDB is committed to creating a healthy working environment that enables employees to work without fear of prejudice, gender discrimination, and harassment. Even if you witness an act of Sexual Harassment, you must report it to HR. It is everyone’s responsibility to ensure a safe and harassment-free work environment. We believe that all employees have the right to be treated with fairness and dignity. Sexual harassment at the workplace is a grave offence and is punishable by law.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5mNcMjSIMAT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;To prevent misconduct in the workplace,&amp;#160;HDB Financial Services Ltd. follows POSH - Prevention of Sexual Harassment policy. As per the Act, reported cases of sexual harassment at the workplace will have to be resolved by an in-house committee within a period of 90 days. Let’s find out more about this committee in detail.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5YJblpawLEL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;To address complaints of sexual harassment, management of the company has constituted an Internal Committee, also called the IC. This committee derives its powers and functions from the POSH Act.  The names and contact details of the members of the committee are published and displayed at a noticeable place in the premises as well as on the website of the company. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Click the pdf icon to know the Current members of the IC at HDB.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6UiggVbnIrq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;So how can the Internal committee resolve cases of sexual harassment for its employees? &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;There are four steps involved in this process:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Registering a complaint&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Inquiry Process&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Non-disclosure and &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Post inquiry &amp;amp; disciplinary action&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Let’s take a look at each step in detail by taking the case of Isha, an aggrieved woman. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Before we proceed, let us look at Isha’s grievance.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.66r2hQ7riZN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Isha:  Hello there, I am Isha. I work as an Operations Executive.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Isha: Nithin is one of my colleague who works as an Operations Manager and he is my good friend. Yogesh, a friend of Nithin, is also my colleague.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Isha:&amp;#160;Yogesh started texting me on WhatsApp a few days ago. Since he was Nithin’s friend, I didn’t have a problem at first. But then he started addressing me as “babes” and began to make comments about my display picture.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Isha:&amp;#160;Then he began forwarding vulgar jokes to me! Although I showed my discomfort to him, he did not stop. I even took this up with him face to face in the office.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Isha: What should I do now? &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Narrator: Let us help Isha in addressing this issue. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.601UkAYjbyA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Since Isha has sufficient reason to believe that she is sexually harassed, she must submit a written complaint of the incident to the committee within three months of the incident. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;In cases where the aggrieved woman is unable to make a complaint due to physical incapacity, a complaint can be filed with the written consent of the aggrieved woman by her relative or friend, her co-worker, or an officer of the National Commission for Women or State Women’s Commission.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;In cases where the aggrieved woman is unable to make a complaint on account of mental incapacity, a complaint can be filed by her relative or friend, a special educator, A qualified psychiatrist or psychologist, the guardian or person under whose authority she is receiving treatment or care, or any person who has knowledge of the incident.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6DCobWXQHle" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Before initiating the inquiry, the committee may take steps to settle the matter between both the parties –  Isha and Yogesh, in this case, via a conciliatory process.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The conciliatory process is optional and non-monetary. In case there is no settlement arrived at, then the committee will begin with the inquiry process.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;For this, Isha needs to submit written complaint to the committee with the names and addresses of the witnesses, i.e., Nithin. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;On receipt of the complaint, the committee shall send one of the copies received from Isha to Nithin within seven days. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Nithin can also file his reply to the complaint along with his list of documents and names and addresses of witnesses within 10 ten working days from the date of the receipt of the complaint from the committee. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Click the PDF icon to know more about the process.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5gwzPwHhzhp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The IC would be entitled to elicit all forms of evidences for the inquiry, and the concerned parties will need to co-operate.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The identity and addresses of Isha, Yogesh and Nithin, or any other information relating to conciliation, enquiry, and proceedings, or recommendations of the committee, and the action taken by the employer, shall not be disclosed, published, communicated or made known to the press, public, or media in any manner.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Breach of confidentiality shall be treated as a misconduct which will be punishable as per the disclosure clause.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.63lE4Qj3DMr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The next step is taking disciplinary action. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The Committee prepares and hands over the statement of the allegation to Yogesh within seven working days. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The respondent – Yogesh, in this case, will get five working days to submit a written explanation, if he wants to, as a response against the allegations.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The IC will enquire into the matter within a month and invite both parties to present their views.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;After the IC submits its findings, the company shall take appropriate disciplinary action against the guilty which may include termination, demotion, change of duty, etc. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;In case the committee arrives at a conclusion that the allegation against the accused person, i.e. Yogesh, is false or malicious, it may recommend to take actions as per the Disciplinary Action Policy applicable to false evidence.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.6dqTtKA0Hqq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;With this, we come to the end of the complaint redressal process. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Let’s now look at another scenario.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5xQSR7Koe1h" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Read the scenario carefully and make your choice.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Good Observation!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Neeta is not being harassed by Subhojit, so Subhojit cannot be punished.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The conversation was purely performance-based and non-threatening.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;If Neeta files a complaint setting an inquiry on him, and the committee arrives at a conclusion that the allegation against Subhojit is false, it may recommend to take actions against Neeta as per the Disciplinary Action Policy applicable to false evidence.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Oops, that’s incorrect! &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Neeta is not being harassed by Subhojit, so Subhojit cannot be punished.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;The conversation was purely performance based and non-threatening.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#404040'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;If Neeta files a complaint setting an inquiry on him, and the committee arrives at a conclusion that the allegation against Subhojit is false, to take actions against Neeta as per the Disciplinary Action Policy applicable to false evidence. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5XDeuhoV05b" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Remember, as an individual, if you come across such an incident, you should speak up. Tell the respondent that the behaviour is unwelcomed, and ask him or her to stop. If the incident gets repeated, you should report the incident to the Committee or HR Manager. You may approach any of the committee members or the HR Manager informally for counsel.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5youWp19wXr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;As a Manager, if an employee approaches you with a complaint, you should guide employees to the proper procedures, report the matter to the committee immediately. In case the employee doesn’t want to launch a formal complaint, please give the person a patient hearing. But do not resolve it informally and do not start an internal investigation under any circumstances. All investigations should be done only by the designated committee. When approached for counsel, avoid giving quick judgment, advice, and opinions. Do not cross-question the individual or give an impression of doubting the authenticity of their report. Protect privacy and assure confidentiality. Communicate in a manner that shows respect and dignity for their feelings.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5eJfqbIpmlC.5s116EGjlZT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Thank you for taking up the course. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#404040'&gt;Kindly close the window and take up the assessment to complete the module. The pass percentage is 80%&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
